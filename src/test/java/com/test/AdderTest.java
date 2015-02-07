@@ -20,4 +20,12 @@ public class AdderTest {
 
         assertEquals(3, result);
     }
+
+    @Test
+    public void testAdderNegative() throws Exception {
+        int result = adder.add(-5, -10);
+
+        assertEquals(-15, result);
+
+    }
 }
